@@ -1,0 +1,29 @@
+version: 1
+
+formatters:
+  simple:
+    format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+
+handlers:
+  console_handler:
+    class: logging.StreamHandler
+    level: DEBUG
+    formatter: simple
+    stream: ext://sys.stdout
+
+  file_handler:
+    class: logging.FileHandler
+    level: INFO
+    formatter: simple
+    filename: crawler.log
+    encoding: utf-8
+
+loggers:
+  __main__:
+    level: INFO
+    handlers: [console_handler, file_handler]
+    propagate: no
+
+root:
+  level: INFO
+  handlers: [console_handler, file_handler]

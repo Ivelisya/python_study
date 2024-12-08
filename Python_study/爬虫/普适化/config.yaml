@@ -1,0 +1,6 @@
+db_url: 'mysql://root:123456@localhost:3306/smzy'
+logging_config_path: 'logging_config.yaml'
+database: 'default'
+semaphore_limit: 50
+website_config_path: 'website_config.yaml'
+anti_scraping_strategy: null  # Add a placeholder for anti-scraping strategy

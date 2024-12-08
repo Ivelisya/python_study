@@ -1,0 +1,1 @@
+'''所有python都被编译成了code_object'''

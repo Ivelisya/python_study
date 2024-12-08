@@ -1,0 +1,3 @@
+# crawler_config.yaml
+
+url_fetch_method: fetch_page_urls

@@ -1,0 +1,5 @@
+title_selector: 'title'
+author_selector: 'a[itemprop="author"]'
+update_time_selector: 'time[itemprop="dateModified"]'
+content_selector: 'div.entry-content'
+
